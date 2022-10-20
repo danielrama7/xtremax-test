@@ -2,57 +2,84 @@
   "data": [
     {
       "placeName": "Merlion",
-      "description": "",
+      "description": "The Merlion is the national personification of Singapore.\nIts name combines \"mer\" meaning the sea and \"lion\". The fish body represents Singapore's origin as a fishing village when it was called Temasek, which means \"sea town\" in Javanese. The lion head represents Singapore's original name—Singapura—meaning \"lion city\" or \"kota singa\".",
       "latitude": 1.28692,
-      "longitude": 103.85457
+      "longitude": 103.85457,
+      "location": "10 Bayfront Avenue, Singapore",
+      "link": "http://www.marinabaysands.com",
+      "image": "https://cdn-2.tstatic.net/batam/foto/bank/images/patung-merlion-sebagai-ikon-singapura.jpg"
     },
     {
       "placeName": "Asian Civilisations Museum",
-      "description": "",
+      "description": "The Asian Civilisations Museum is an institution which forms a part of the four museums in Singapore, the other three being the Peranakan Museum at Old Tao Nan School, the National Museum of Singapore and the Singapore Art Museum.",
       "latitude": 1.287466,
-      "longitude": 103.851424
+      "longitude": 103.851424,
+      "location": "1 Empress Pl, Singapore",
+      "link": "https://www.nhb.gov.sg/acm/",
+      "image": "https://image.kkday.com/v2/image/get/s1.kkday.com/product_27534/20190630170018_SheDy/jpg"
     },
     {
       "placeName": "Clarke Quay",
-      "description": "",
+      "description": "Clarke Quay is a historical riverside quay in Singapore, located within the Singapore River Planning Area. The quay is situated upstream from the mouth of the Singapore River and Boat Quay.",
       "latitude": 1.290555,
-      "longitude": 103.846188
+      "longitude": 103.846188,
+      "location": "3 River Valley Rd, Singapore",
+      "link": "https://www.capitaland.com/sg/malls/clarkequay/en.html",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWK2lEnP1QYx8IKrBnyN9_P5Kt2Dbb-MKDzg&usqp=CAU"
     },
     {
       "placeName": "Fort Canning Park",
-      "description": "",
+      "description": "Fort Canning Hill, formerly Government Hill, Singapore Hill and Bukit Larangan (Forbidden Hill in Malay), is a small hill, about 48 metres (157 ft) high, in the southeast portion of the island city-state of Singapore, within the Central Area that forms Singapore's central business district. It is named after Viscount Charles John Canning, the first Viceroy of India.",
       "latitude": 1.295526,
-      "longitude": 103.845331
+      "longitude": 103.845331,
+      "location": "River Valley Road, Singapore",
+      "link": "https://www.nhb.gov.sg/acm/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fort_Canning_Park_sign%2C_Singapore_-_20110506.jpg/272px-Fort_Canning_Park_sign%2C_Singapore_-_20110506.jpg"
     },
     {
       "placeName": "Orchard Road",
-      "description": "",
+      "description": "Orchard Road is Singapore’s retail heart, with discount outlets, department stores and upscale boutiques, alongside luxury hotels. Emerald Hill Road is a mix of colorful Chinese baroque houses and casual pubs, while al fresco bars and eateries can be found along nearby Cuppage Terrace.",
       "latitude": 1.302279,
-      "longitude": 103.837399
+      "longitude": 103.837399,
+      "location": "Orchard Road, Singapore",
+      "link": "https://www.nhb.gov.sg/acm/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Presenting..._the_real_ION_%288200217734%29.jpg/280px-Presenting..._the_real_ION_%288200217734%29.jpg"
     },
     {
       "placeName": "Singapore Flyer",
-      "description": "",
+      "description": "The Singapore Flyer is an observation wheel at the Downtown Core district of Singapore. Officially opened on 15 April 2008, it has 28 air-conditioned capsules, each able to accommodate 28 passengers, and incorporates a three-story terminal building.",
       "latitude": 1.289332,
-      "longitude": 103.863152
+      "longitude": 103.863152,
+      "location": "30 Raffles Ave., Singapore",
+      "link": "https://www.singaporeflyer.com/en",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Dikaiosp_210819_6963.jpg/300px-Dikaiosp_210819_6963.jpg"
     },
     {
       "placeName": "Marina Bay Sands",
-      "description": "",
+      "description": "Marina Bay Sands is an integrated resort fronting Marina Bay in Singapore. The resort is owned by the Las Vegas Sands Corporation and at its opening in 2010, it was deemed the world's most expensive standalone casino property at S$8 billion (US$6.88 billion).",
       "latitude": 1.283099,
-      "longitude": 103.860295
+      "longitude": 103.860295,
+      "location": "10 Bayfront Ave, Singapore",
+      "link": "https://www.marinabaysands.com",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Marina_Bay_Sands_in_the_evening_-_20101120.jpg/325px-Marina_Bay_Sands_in_the_evening_-_20101120.jpg"
     },
     {
       "placeName": "Gardens By The Bay",
-      "description": "",
+      "description": "The Gardens by the Bay is a nature park spanning 101 hectares in the Central Region of Singapore, adjacent to the Marina Reservoir. The park consists of three waterfront gardens: Bay South Garden, Bay East Garden and Bay Central Garden.",
       "latitude": 1.28179,
-      "longitude": 103.863954
+      "longitude": 103.863954,
+      "location": "18 Marina Gardens Dr, Singapore",
+      "link": "https://www.gardensbythebay.com.sg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXSzS2kNKswnxpvITrImhXa_vWjcYMPEljCg&usqp=CAU"
     },
     {
       "placeName": "Chinatown",
-      "description": "",
+      "description": "Chinatown is a subzone and ethnic enclave located within the Outram district in the Central Area of Singapore. Featuring distinctly Chinese cultural elements, Chinatown has had a historically concentrated ethnic Chinese population.",
       "latitude": 1.284193,
-      "longitude": 103.843362
+      "longitude": 103.843362,
+      "location": "Chinatown, Singapore",
+      "link": "https://chinatown.sg/",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/China_Town%2C_Singapore_01.jpg/220px-China_Town%2C_Singapore_01.jpg"
     }
   ]
 }
