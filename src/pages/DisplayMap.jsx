@@ -1,50 +1,53 @@
 import React, { useState, useEffect } from "react";
 import GoogleMapReact from "google-map-react";
 import Marker from "../component/Marker";
-import mapDataAPI from "../api/mapData";
 import { useSelected } from "../context/context";
 
 function DisplayMap() {
-  const [place, setPlace] = useState([]);
+  const [mapData, setMapData] = useState([]);
   const selectedContext = useSelected();
-  const { selected, HandlerSelected } = selectedContext;
-  useEffect(() => {
-    const fetchPlace = async () => {
-      const res = await mapDataAPI.getAll();
-      setPlace(res.data.data);
-    };
-    fetchPlace();
-    console.log(selected);
-    HandlerZoom();
-  }, [selected]);
-
   const [zoom, setZoom] = useState(15);
-  const [lati, setLat] = useState(1.290555);
-  const [lot, setLot] = useState(103.846188);
+  const [center, setCenter] = useState([1.295526, 103.845331]);
+  const filterData = "merlian";
+  const { selected, HandlerSelected, selectedOnMenu, HandlerSelectedOnMenu } =
+    selectedContext;
 
-  const defaultProps = {
-    center: {
-      lat: lati,
-      lng: lot,
-    },
-    zoom: 15,
-  };
-  const HandlerZoom = () => {
-    setZoom(17);
-    setLat(selected.latitude ? selected.latitude : 1.290555);
-    setLot(selected.longitude ? selected.longitude : 103.846188);
-  };
+  // fetch data from my github
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/danielrama7/xtremax-test/master/src/mapData/mapData.json"
+    )
+      .then((res) => res.json())
+      .then((data) => setMapData(data.data));
+    console.log(mapData.placeName);
+  }, []);
+
+  // get map data from JSON that match with data from selectedOnMenu
+  useEffect(() => {
+    if (selectedOnMenu) {
+      const filterData = mapData.filter((map) =>
+        map.placeName.includes(selectedOnMenu)
+      );
+      HandlerSelected(filterData[0]);
+    }
+  }, [selectedOnMenu]);
+
+  // change map center and zoom when a mark is selected
+  useEffect(() => {
+    if (selected.placeName) {
+      setCenter([selected.latitude, selected.longitude]);
+      setZoom(17);
+    }
+  }, [selected.placeName]);
 
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: "86.7vh", width: "1420px" }}>
+    <div className="relative h-screen w-[1420px]">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyB1wCldJoZWl65B6desgUHzk_hIZRDw2BU" }}
-        center={defaultProps.center}
-        zoom={defaultProps.zoom}
-        onClick={HandlerZoom}
+        center={center}
+        zoom={zoom}
       >
-        {place.map((item, i) => (
+        {mapData.map((item, i) => (
           <Marker
             lat={item?.latitude}
             lng={item?.longitude}

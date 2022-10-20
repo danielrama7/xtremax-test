@@ -3,6 +3,7 @@ import Dashboard from "./Dashboard";
 import Header from "./Header";
 import Menu from "./Menu";
 import DisplayMap from "./DisplayMap";
+import PopUp from "./PopUp";
 
 function MainPage() {
   return (
@@ -11,12 +12,9 @@ function MainPage() {
         <Dashboard />
         <Menu />
         <div className="w-[1420px]">
-          <div className="w-full z-10">
-            <Header />
-          </div>
-          <div className="w-full">
-            <DisplayMap />
-          </div>
+          <Header />
+          <PopUp />
+          <DisplayMap />
         </div>
       </div>
     </div>

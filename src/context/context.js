@@ -8,10 +8,19 @@ export const useSelected = () => {
 
 export const SelectedProvider = ({ children }) => {
   const [selected, setSelected] = useState([]);
+  const [selectedOnMenu, setSelectedOnMenu] = useState("");
   const HandlerSelected = (placeInfo) => setSelected(placeInfo);
+  const HandlerSelectedOnMenu = (menuInfo) => setSelectedOnMenu(menuInfo);
 
   return (
-    <SelectedContext.Provider value={{ selected, HandlerSelected }}>
+    <SelectedContext.Provider
+      value={{
+        selected,
+        HandlerSelected,
+        selectedOnMenu,
+        HandlerSelectedOnMenu,
+      }}
+    >
       {children}
     </SelectedContext.Provider>
   );

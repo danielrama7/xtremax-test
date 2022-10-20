@@ -5,7 +5,8 @@ import { useSelected } from "../context/context";
 function Marker({ placeName, placeInfo }) {
   const [hoverPlace, setHoverPlace] = useState(false);
   const selectedContext = useSelected();
-  const { selected, HandlerSelected } = selectedContext;
+  const { selected, HandlerSelected, selectedOnMenu, HandlerSelectedOnMenu } =
+    selectedContext;
 
   const handlerHoverPlace = () => {
     setHoverPlace(!hoverPlace);
@@ -21,7 +22,7 @@ function Marker({ placeName, placeInfo }) {
         <p className="text-white font-semibold text-left text-lg">
           {placeName}
         </p>
-        <p className="text-white text-left">10 Bayford Avenue, Singapore</p>
+        <p className="text-white text-left">{selected.location}</p>
       </div>
     </div>
   ) : (

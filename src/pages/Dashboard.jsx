@@ -7,7 +7,7 @@ import about from "../img/About.png";
 
 function Dashboard() {
   return (
-    <div className="w-[150px] h-screen bg-[#313541] z-30">
+    <aside className="w-[150px] h-screen bg-[#313541] z-30">
       <div className="w-full h-[125px] bg-[#72CDD2] grid content-center justify-items-center text-white px-8">
         <img src={browse} className="" />
         <p className="font-bold">Browse</p>
@@ -28,7 +28,7 @@ function Dashboard() {
         <img src={about} className="" />
         <p>About</p>
       </div>
-    </div>
+    </aside>
   );
 }
 
