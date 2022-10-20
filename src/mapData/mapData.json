@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "name": "Merlion",
+      "description": "",
+      "latitude": "1.286920",
+      "longitude": "103.854570"
+    },
+    {
+      "name": "Asian Civilisations Museum",
+      "description": "",
+      "latitude": "1.287466",
+      "longitude": "103.851424"
+    },
+    {
+      "name": "Clarke Quay",
+      "description": "",
+      "latitude": "1.290555",
+      "longitude": "103.846188"
+    },
+    {
+      "name": "Fort Canning Park",
+      "description": "",
+      "latitude": "1.295526",
+      "longitude": "103.845331"
+    },
+    {
+      "name": "Orchard Road",
+      "description": "",
+      "latitude": "1.302279",
+      "longitude": "103.837399"
+    },
+    {
+      "name": "Singapore Flyer",
+      "description": "",
+      "latitude": "1.289332",
+      "longitude": "103.863152"
+    },
+    {
+      "name": "Marina Bay Sands",
+      "description": "",
+      "latitude": "1.283099",
+      "longitude": "103.860295"
+    },
+    {
+      "name": "Gardens By The Bay",
+      "description": "",
+      "latitude": "1.281790",
+      "longitude": "103.863954"
+    },
+    {
+      "name": "Chinatown",
+      "description": "",
+      "latitude": "1.284193",
+      "longitude": "103.843362"
+    }
+  ]
+}
