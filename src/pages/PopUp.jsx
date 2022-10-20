@@ -21,11 +21,11 @@ function PopUp() {
       </div>
       <div className="w-full px-9 py-6 text-[#CCCCCC] text-left">
         <p className="mb-10">{selected.description}</p>
-        <div className="flex gap-3 mb-5 items-center">
+        <div className="w-full flex gap-3 mb-5 items-center">
           <img src={location} className="w-3 h-4 mt-1" />
           <p>{selected.location}</p>
         </div>
-        <div className="flex gap-3 items-center">
+        <div className="w-full flex gap-3 items-center">
           <img src={link} />
           <p>{selected.link}</p>
         </div>
