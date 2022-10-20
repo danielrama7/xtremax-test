@@ -41,7 +41,7 @@ function Menu() {
     selectedContext;
 
   return (
-    <dl className="z-20 w-[350px] h-screen bg-[#282C37] text-[#8298A0] px-6 border-l border-[#20232C] shadow-[1px_2px_17px_-1px_rgba(0,0,0,0.65)]">
+    <dl className="z-20 w-[350px] h-screen bg-[#282C37] text-[#8298A0] px-6 border-l border-[#20232C] shadow-[1px_2px_17px_-1px_rgba(0,0,0,0.65)] overflow-y-auto">
       <div className="w-full h-[125px] border-b border-[#242832] pt-10">
         <div className="border border-[#242832] flex justify-between pr-4 pl-9 py-2">
           <p>Filter by favorite</p>
