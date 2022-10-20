@@ -6,7 +6,6 @@ import options from "../img/Options.png";
 function Header() {
   return (
     <div>
-      // header
       <header className="absolute z-20 h-[125px] bg-[#F4F7FA] w-[1420px] px-16 flex items-center justify-between">
         <h1 className="text-left font-bold text-[#282C37] text-2xl">
           TOP-RATED TOURIST ATTRACTIONS IN SINGAPORE
